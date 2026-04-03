@@ -1,12 +1,5 @@
 # Number Guessing Game
 
-print("Welcome to Number Guessing Game! ")
-print("====== Game Rules ======")
-print("1. The computer chooses a random number (between 1 to 100)")
-print("2. player tries to guess the correct number")
-print("3. After each guess, the program gives a hint : \nLower number plese (If your guess is bigger then the number)\nHigher number plese (If your guess is smaller then the number)")
-print("4. The player keeps guessing until they find the correct number")
-
 import random
 Attampt=0
 random_number=random.randint(1,100)
